@@ -1,0 +1,77 @@
+/*Обнуление*/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a,
+a:active {
+  text-decoration: none;
+  color: #4B5D68;
+}
+a:hover {
+  color: #212353;
+}
+ul, 
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  color: #4B5D68;
+}
+
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.main {
+  flex: 1 1 auto;
+}
+[class*="__container"] {
+  max-width: 1117px;
+  margin: 0 auto;
+}
+.header__container {
+  display: flex;
+  min-height: 90px;
+  align-items: center;
+}
+.header__menu {
+  flex: 0 0 395px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu__list {
+  display: flex;
+}
+.menu__item {
+  margin: 0 40px 0 0;
+}
+
