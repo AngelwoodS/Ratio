@@ -42,7 +42,7 @@ body {
   font-size: 16px;
   color: #4B5D68;
 }
-
+/*чтобы прибить футер к низу*/
 .wrapper {
   overflow: hidden;
   display: flex;
@@ -50,7 +50,7 @@ body {
   min-height: 100%;
 }
 .main {
-  flex: 1 1 auto;
+  flex: 1 1 auto; /*увеличение на всю ширину, чтобы прибить футер к низу*/
 }
 [class*="__container"] {
   max-width: 1117px;
